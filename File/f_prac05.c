@@ -11,7 +11,7 @@ void DrawMap(Map m);
 main()
 {
 	Map MapData;
-	char* MapFileName[MapNum] = { "map0.txt","map1.txt", "map2.txt" };
+	char* MapFileName[MapNum] = { "map0.txt","map1.txt", "map2.txt" };//
 	int select;
 	printf("表示するマップ(0,1,2)->");
 	scanf("%d", &select);
